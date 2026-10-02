@@ -20,6 +20,7 @@ button is released.
 | LED1 (status) | GPIO 5 through 220 Ω resistor, other leg to GND |
 | LED2 (opposite) | GPIO 6 through 220 Ω resistor, other leg to GND |
 
+![Circuit photo](circuit.png)
 
 ## Observation table
 | Button state | GPIO 4 reads | LED1 (GPIO 5) | LED2 (GPIO 6) |
@@ -40,7 +41,7 @@ means pressed. The pull-up keeps the input stable when released, so it
 does not change randomly.
 
 ## Code
-See [button_led.ino](button_led.ino).
+See [button_led.ino](button_led.txt).
 
 ## Demo video
-[Watch the demo](PASTE-YOUR-VIDEO-LINK-HERE)
+[Watch the demo](button_led_demo.mp4)
