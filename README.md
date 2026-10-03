@@ -20,7 +20,7 @@ button is released.
 | LED1 (status) | GPIO 5 through 220 Ω resistor, other leg to GND |
 | LED2 (opposite) | GPIO 6 through 220 Ω resistor, other leg to GND |
 
-![Circuit photo](circuit.png)
+![Circuit photo](image/circuit.png)
 
 ## Observation table
 | Button state | GPIO 4 reads | LED1 (GPIO 5) | LED2 (GPIO 6) |
